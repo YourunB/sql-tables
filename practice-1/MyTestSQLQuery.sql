@@ -1,0 +1,9 @@
+SELECT * 
+FROM INFORMATION_SCHEMA.TABLES 
+WHERE TABLE_NAME = 'books'; -- найти таюлицу books
+
+SELECT TABLE_NAME  FROM INFORMATION_SCHEMA.TABLES  WHERE TABLE_TYPE = 'BASE TABLE' --все таблицы
+
+USE MyDB; -- указываем текущую БД
+GO
+SELECT * FROM INFORMATION_SCHEMA.TABLES; -- показать таблицы в моей БД
